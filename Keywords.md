@@ -1,44 +1,47 @@
 # All keywords
-  1. abstract 
-  2. bool
-  3. break
-  4. byte
-  5. case
-  6. char
-  7. class
-  8. const
-  9.  continue
-  10. define 
-  11. default
-  12. do
-  13. double
-  14. else
-  15. enum
-  16. extend
-  17. false
-  18. float
-  19. for
-  20. implements
-  21. int
-  22. long
-  23. namespace
-  24. new
-  25. null
-  26. private
-  27. protected
-  28. public
-  29. return
-  30. short
-  31. static
-  32. switch
-  33. string
-  34. throw
-  35. true
-  36. union
-  37. ubyte
-  38. ushort
-  39. uint
-  40. ulong
-  41. void
-  42. while
-   
+
+| Keyword    | Kind              | Description |
+| :--------- | :---------------- | :---------- |
+| abstract   | Modifier          |
+| bool       | Data type         |
+| break      | Termination       |
+| byte       | Data type         |
+| case       | Control flow      |
+| char       | Data type         |
+| class      | User-defined type |
+| const      | Qualifier         |
+| continue   | Control flow      |
+| define     | Alias             |
+| default    | Control flow      |
+| double     | Data type         |
+| else       | Control flow      |
+| enum       | User-defined type |
+| extend     | Modifier          |
+| false      | Literal           |
+| float      | Data type         |
+| for        | Control flow      |
+| implements | Modifier          |
+| int        | Data type         |
+| long       | Data type         |
+| namespace  |                    |
+| new        | *                 |
+| null       | Literal           |
+| otherwise  | Control flow      |
+| private    | Modifier          |
+| protected  | Modifier          |
+| public     | Modifier          |
+| return     | Control flow      |
+| repeat     | Control flow      |
+| short      | Data type         |
+| static     | Modifier          |
+| switch     | Control flow      |
+| string     | Data type         |
+| true       | Literal           |
+| union      | User-defined type |
+| ubyte      | Data type         |
+| ushort     | Data type         |
+| uint       | Data type         |
+| ulong      | Data type         |
+| void       | Type specifier    |
+| while      | Control flow      |
+|            |
