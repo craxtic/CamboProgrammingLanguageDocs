@@ -8,6 +8,8 @@
 | byte       | Data type         |
 | case       | Control flow      |
 | char       | Data type         |
+| char16     | Data type         |
+| char32     | Data type         |
 | class      | User-defined type |
 | const      | Qualifier         |
 | continue   | Control flow      |
@@ -23,7 +25,7 @@
 | implements | Modifier          |
 | int        | Data type         |
 | long       | Data type         |
-| namespace  |                    |
+| namespace  |                   |
 | new        | *                 |
 | null       | Literal           |
 | otherwise  | Control flow      |

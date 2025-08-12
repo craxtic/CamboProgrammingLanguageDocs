@@ -10,5 +10,18 @@ union identifier{
 };
 ```
 
-// TODO: finish documentation
+- The size of a union will depend on one of its member with the largest size.
+
+#### Example
+```
+union data {
+  int i;
+  float f;
+  double d;
+}
+```
+In this case, since double has the biggest one, which is 64 bits, 
+the size of memory allocated for this union will be 64 bits.
+
+
 

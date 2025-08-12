@@ -31,3 +31,21 @@ for(byte i = 0; i < 10; i++){
 }
 ```
 
+## III. Repeat While Loop
+`repeat-while` loop is entirely the same as `do-while` loop in C/C++, 
+but I just want to change the word `do` to `repeat` which sounds more natural.
+
+```
+repeat {
+
+}while(condition)
+```
+
+#### Example 
+```
+int i = 0;
+repeat{
+  print("hello, new world\n");
+  i++;
+} while(i < 10);
+```
