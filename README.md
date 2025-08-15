@@ -1,5 +1,7 @@
-# Pixer Programming Language
+# Cambo Programming Language
 
-Pixer is a general-purpose programming that has the power of C++ but remains as simple as C. Hopefully :]
 
-- A multi-paradigm langauge
+Cambo is a high level, general-purpose, multi-paradigm programming language designed by a teenager named Heng KimSreang. 
+It is free and open-source software, released under an (License) idk yet.   
+This language emphasizes performance, strong type and memory safety.    
+... 

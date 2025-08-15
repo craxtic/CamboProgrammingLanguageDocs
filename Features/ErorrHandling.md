@@ -40,7 +40,7 @@ int main(){
   }
 
 
-  float result2 = divide(12, 3) otherwise(error){  <- MathError type specification is optional
+  float result2 = divide(12, 3) otherwise(error){  // <- MathError type specification is optional
     if(error = MathError.DivideByZero){
       print("cannot divide by zero\n");
     } 
