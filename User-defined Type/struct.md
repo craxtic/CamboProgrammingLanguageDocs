@@ -13,10 +13,9 @@ instance through the keyword `self`;
 - **Construtor**: Defined using `init` keyword, this is a special function which is automatically invoked
 when an instance of the struct is created.
 - **Destructor**: Defined using `deinit` keyword, this is a special function which is automcatically 
-invoked.
+invoked when a struct instance goes out of scope.
 - **Static**: static members are tied to the struct itself, not individual instances. It can be called 
 shared memebers;
-when a struct instance goes out of scope.
 - **This is not OOP**: While the syntax seems like OOP, however, it's not. It's just `struct` with extra 
 features, no inheritance or polymorphism is supported.
 
