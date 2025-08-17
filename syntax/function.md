@@ -66,9 +66,14 @@ int main(){
 }
 ```
 
-## III. Callback 
+## III. Callback
+
+See [Lambda Expressions](Lambdas.md) first!
+
+### syntax
+
 ```
-return_type function_name(return_type callback_name(type1, type2, ..., typeN)){
+return_type function_name(return_type(parameter_types) callback_name){
 
 }
 ```
@@ -76,8 +81,38 @@ return_type function_name(return_type callback_name(type1, type2, ..., typeN)){
 #### Example 
 ```
 
+struct Button {
+
+  void() clickHandler;
+
+  void onClick(void() handler){
+    self.clickHandler = handler;
+  }
+}
+
+// simulate button click
+void clickButton(Button *button){
+  button.clickHandler();
+}
+
+int main(void){
+
+
+  Button button = Button();
+
+  button.onClick(() => {
+    print("hello, button!\n");
+    print("hello, world!\n");
+  });
+
+  // now we can click the button
+  clickButton(&button);
+
+  return 0;
+}
 ```
 
+This code above is just for demonstration, a real button is much more than that.   
 
 
 
